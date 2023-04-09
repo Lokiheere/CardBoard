@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Hub.css">
+    <script defer src="js/Hub.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <ul>
+          <li><a href="homepage.html"><img src="/img/CardBoard-small.png" alt="logo"></a></li>
+        </ul>    
+    </div> 
+    <div class="container"> 
+      <form class="filter">
+          <div class="item">
+              <select name="category">
+                  <option value="">Type</option>
+                  <option value="cardGame">Card Game</option>
+                  <option value="boardGame">Board Game</option>
+              </select>
+          </div>
+          <div class="item">
+              <select name="AmountOfPlayers">
+                  <option value="">Amount of Players</option>
+                  <option value="2player">2 players</option>
+                  <option value="3-4player">3-4 players</option>
+                  <option value="5-6player">5-6 players</option>
+                  <option value="party">Party</option>
+              </select>
+          </div>
+          <div class="item">
+              <input name="name" type="text" placeholder="Search Here">
+          </div>
+          <div class="item submit">
+              <button>Search</button>
+          </div>
+      </form>
+      <div class="countResults">
+          Found <b id="count">5</b> results
+      </div>
+      <div id="list">
+          
+      </div>
+  </div>
+</body>
+</html>

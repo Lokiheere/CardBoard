@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body {
+    margin: 0px;
+    height: 160vh;
+    background-color: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#banner {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    background-color: #2d2d2d; 
+    background-image: linear-gradient(rgba(117, 40, 40, 0.5),rgba(0,0,0,0.5)),url("/img/img1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#logo {
+    position: relative;
+    margin: auto;
+    bottom: 250px;
+}
+
+#link {
+    position: absolute;
+    top: 40%;
+    right: 46%;
+    font-size: 50px;
+    font-family: 'Secular One', sans-serif;
+}
+
+#link a { 
+    color: #D35757;
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+}
+
+#block {
+    height: 10vh;
+    position: relative;
+    text-align: center;
+    background-size: cover;
+}
+
+#block p {
+    position: relative;
+    background: linear-gradient( to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    bottom: 40px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Secular One', sans-serif;
+}
+
+#block2 {
+    height: 10vh;
+    bottom: 100px;
+    text-align: center;
+}
+
+#reminder {
+    position: absolute;
+    left: 50%;
+    top: 26%;
+}
+
+#reminder img {
+    width: 25%;
+    object-fit: contain;
+}
+
+#bg-page {
+    height: 90vh;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/img/simon-ray-0DF7DuMrI9k-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+#text-block {
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    width: 30vw;
+    height: 50vh;
+    flex-direction: column;
+    background-color: white;
+}
+
+#text-block p {
+    background: linear-gradient( to right, #e66008, #f32170,#cf23cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+
+#video {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+}
+
+@media only screen and (max-width: 600px) and (mid-width: 1px) {
+    
+    #video {
+        display:none;
+    }
+
+}
